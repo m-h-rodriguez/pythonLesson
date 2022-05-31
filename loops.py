@@ -29,5 +29,7 @@ students = [
     }
 ]
 
-print(students)
-$ git status
+for s in students:
+    print("Hello " + s["fname"] + " " + s["lname"])
+    input("What did you work on last week?")
+    print(f"Thanks so much {s['fname']}")
