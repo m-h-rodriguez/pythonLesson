@@ -1,0 +1,1 @@
+This is a sample of all projects that we worked on in pluralsight and in class
