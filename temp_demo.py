@@ -13,6 +13,10 @@ print(get_temperature())
 #         return f.readlines()[0]
 
 
+# f = open("temperature.txt", "r")
+# print(f.read())
+
+
 def should_go_outside(temp, limit):
     if temp > limit:
         return False
